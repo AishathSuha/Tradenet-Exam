@@ -64,3 +64,18 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Running the Code
+
+It is not responsive, I didn't have enough time to make it responsive, but since that wasn't a requirement, I didn't keep it as a priority.
+It should run with the following commands:
+
+    php artisan migrate
+    php artisan db:seed
+    npm run dev
+    php artisan serve
+
+The protected page has the following credentials:
+
+    email: admin@example.com
+    password: admin
